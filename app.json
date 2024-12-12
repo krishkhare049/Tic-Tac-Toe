@@ -1,28 +1,40 @@
 {
   "expo": {
-    "name": "ttt",
+    "name": "Tic Tac Toe",
     "slug": "ttt",
     "version": "1.0.0",
     "orientation": "portrait",
-    "icon": "./assets/icon.png",
+    "icon": "./src/assets/icon.png",
     "userInterfaceStyle": "light",
     "newArchEnabled": true,
     "splash": {
-      "image": "./assets/splash-icon.png",
+      "image": "./src/assets/crimson.png",
       "resizeMode": "contain",
-      "backgroundColor": "#ffffff"
+      "backgroundColor": "#DC143C"
     },
     "ios": {
       "supportsTablet": true
     },
     "android": {
       "adaptiveIcon": {
-        "foregroundImage": "./assets/adaptive-icon.png",
-        "backgroundColor": "#ffffff"
-      }
+        "foregroundImage": "./src/assets/icon.png",
+        "backgroundColor": "#DC143C"
+      },
+      "package": "com.krish_khare.tictactoe"
     },
     "web": {
       "favicon": "./assets/favicon.png"
-    }
+    },
+    "plugins": [
+      [
+        "expo-font"
+      ]
+    ],
+    "extra": {
+      "eas": {
+        "projectId": "b0f5a6ef-beb6-46b7-aa73-b8337134f5b8"
+      }
+    },
+    "owner": "krish_khare"
   }
 }
